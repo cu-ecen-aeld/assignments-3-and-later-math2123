@@ -5,10 +5,10 @@ dr=$(dirname $writefile)
 
 if [ $# -lt 2 ] ; then
     if [ $# == 0 ] ; then
-        echo " missing writefile and writestr"
+        echo missing writefile and writestr
     fi
     if [ $# == 1 ] ; then
-        echo " missing writestr"
+        echo missing writestr
     fi
     exit 1
 fi
