@@ -8,10 +8,10 @@ fi
 
 if [ $# -lt 2 ] ; then
     if [ $# == 0 ] ; then
-        echo " missing filesdir and searchstr"
+        echo missing filesdir and searchstr
     fi
     if [ $# == 1 ] ; then
-        echo " missing searchstr"
+        echo missing searchstr
     fi
     exit 1
 fi
